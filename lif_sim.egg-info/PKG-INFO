@@ -3,7 +3,7 @@ Name: lif-sim
 Version: 0.1.0
 Summary: Leaky Integrate-and-Fire neuron model simulation
 Author-email: Sthitapranjya Pati <sthita.pati@gmail.com>
-Requires-Python: >=3.8
+Requires-Python: >=3.9
 Requires-Dist: numpy
 Requires-Dist: scipy
 Requires-Dist: matplotlib
