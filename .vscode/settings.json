@@ -1,0 +1,18 @@
+// VSCode settings for Python development
+
+{
+    // Specify path of the Python interpreter (default is conda environment)
+        "python.defaultInterpreterPath": "/home/sthitapati/anaconda3/envs/lif/bin/python",
+
+
+        "python.analysis.diagnosticSeverityOverrides": {
+            "reportMissingImports": "warning"
+        },
+        "python.analysis.typeCheckingMode": "basic",
+        "python.analysis.autoSearchPaths": true,
+        "python.analysis.useLibraryCodeForTypes": true,
+        // format on save
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter"
+}
