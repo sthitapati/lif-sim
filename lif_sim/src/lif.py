@@ -10,8 +10,9 @@ Main script for simulating a leaky integrate-and-fire (LIF) neuron and plotting 
 import numpy as np
 from scipy.integrate import odeint
 from scipy.signal import find_peaks
-from model import LIFNeuron
-from plotting import PlotManager 
+
+from .model import LIFNeuron
+from .plotting import PlotManager
 
 
 def main():

@@ -1,0 +1,7 @@
+{
+  "include": ["."],
+  "extraPaths": ["lif_sim/src"],
+  "venvPath": "/Users/sthitapati/miniforge3/envs",
+  "venv": "olf-sim",
+  "typeCheckingMode": "basic"
+}
